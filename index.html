@@ -3,98 +3,129 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content-type="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Ode To Owen</title>
+    <link rel="stylesheet" href="style.css">
+    <title>An Ode to Owen</title>
+    
 </head>
 
 <body>
-    <main>
-        <!--Landing Area with a Photo of a Beagle named Owen-->
-        <div id="landing">
-            <div id="landing-text">
-                <div id="landing-text-inner">
-                    <h1>
-                        ODE TO OWEN
-                    </h1>
-                    <h2>
-                        The Greatest Beagle to ever walk the Earth!
-                    </h2>
-                    <a href="images" class="button" id="view-owen">
-                        View More Pics of Owen
-                    </a>
-                </div>
-            </div>
-            <div id="landing-image"></div>
+    <!--Header Need to add a navbar-->
+    <nav>
+        <div class="logo">
+            <h4>Owen "Beagle" Wilson</h4>
         </div>
-
-        <div id="images">
-            <div id="header">
-                <h2>
-                Owen looking cute!
-                </h2>
-            </div>
-                <img src="assets/Owen1.JPG" alt="">
-                <!--First photo of Owen-->
-                <div class="caption">
-                    <h3>First Owen Photo</h3>
-                    <p>
-                        Owen when he first arrived at his new home.
-                    </p>
-                </div>
-
-                <img src="assets/Owen2.JPG" alt="">
-                <!--Second photo of Owen-->
-                <div class="caption">
-                    <h3>Second Owen Photo</h3>
-                    <p>
-                        Owen resting.
-                    </p>
-                </div>
-
-                <img src="assets/Owen3.JPG" alt="">
-                <!--Third photo of Owen-->
-                <div class="caption">
-                    <h3>Third Owen Photo</h3>
-                    <p>
-                        Owen on alert, most likely for food. He absolutley loved food! Notice the green paws, he usually liked to inspect the yard after it was freshly mowed.
-                    </p>
-                </div>
-
-                <img src="assets/Owen4.JPG" alt="">
-                <!--Fourth photo of Owen-->
-                <div class="caption">
-                    <h3>Fourth Owen Photo</h3>
-                    <p>
-                        Owen lounging on the couch. 
-                    </p>
-                </div>
-
-                <img src="assets/Owen5.JPG" alt="">
-                <!--Fifth photo of Owen-->
-                <div class="caption">
-                    <h3>Fifth Owen Photo</h3>
-                    <p>
-                       Owen liked snuggling in quilts and any type of blanket or cover.  
-                    </p>
-                </div>
-            </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
+    </nav>  
+
+    <header id="showcase" class="grid">
+        <div class="bg-image"></div>
+        <div class="content-wrap">
+            <h1>Welcome to An Ode to Owen</h1>
+            <p>Owen was a 15 year old Beagle who passed away in Sept. 3, 2021 at 8:30pm. He was loved by all and will be greatly
+                missed.</p>
+            <a href="#section-b" class="btn">Read More</a>
+        </div>
+    </header>
+    <!--Main Area-->
+    <main id="main">
+        <!--Section A-->
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">Owen's first day at his new home!</h2>
+                <div class="content-text">
+                    <p>Owen was found by a elementary school teacher who was unable to keep him. Owen was given to
+                        another teacher who provided a forever home and loved him until his death in Sept. 2021</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Section B-->
+        <section id="section-b" class="grid">
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="images/Owen3.JPG" alt="Owen looking into the distance with his green harness on">
+                        <div class="card-content">
+                            <h3 class="card-title">Owen in his prime!</h3>
+                            <p>Owen enjoying his backyard where he wandered, escaped, and roamed for his enjoyment.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <img src="images/Owen4.JPG" alt="Owen curled up on the couch">
+                        <div class="card-content">
+                            <h3 class="card-title">Owen Snuggled up on the couch!</h3>
+                            <p>Owen was a creature of comfort and always liked to snuggle in beds/couches/doggy beds,
+                                anywhere he could find a nice warm and inviting place. He was not one for toys though...
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <img src="images/Owen6.JPG" alt="Owen with his buddy Skittles, a boxer puppy">
+                        <div class="card-content">
+                            <h3 class="card-title">Owen with his buddy Skittles the Boxer puppy!</h3>
+                            <p>Owen was indifferent to most dogs and kept to himself. Earlier in life he would encounter
+                                dogs of friends and family but was not one to get excited about other dogs on walks or
+                                when brought into his home. He tolerated other dogs but was not keen to be with them. he
+                                preferred being with his owner and sleeping in bed with her.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!--Section C-->
+        <section id="section-c" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">Owen was a sweet, kind, and gentle Beagle. He is missed!</h2>
+                <p>Owen never barked and never cried, not a whimper nor a sigh. Loving creature of comfort and hungry
+                    till the end. A beagle who always was a friend. The day he passed is the day an eye can never be
+                    dry. Leaving a hole in hearts that can never be filled.</p>
+            </div>
+        </section>
+
+        <!--Section-D-->
+        <section id="section-d" class="grid">
+            <div class="box">
+                <h2 class="content-title">Contact Us</h2>
+                <p>Please feel free to contact us at the e-mail below to discuss any aspect of Owen or his habits and
+                    mannerisms. We would love the chance to share memories of Owen or field any questions you may have
+                    about him or his life.</p>
+                <p>Owentheawesome@yahoo.com</p>
+            </div>
+            <div class="box">
+                <h2 class="content-title">More About Owen</h2>
+                <p>Additional pages may be added to the site with more photos of Owen. Please feel free to visit the site when you can and updated materials will be added at later dates.</p>
+            </div>
+
+        </section>
+
+
     </main>
 
-    <footer>
-        <h3>Please feel free to get in touch with us.</h3>
-        <p>Email or call us to discuss or ask questions about Owen</p>
-        <p>Email: <strong>contact@Owenisthegreatest.test</strong></p>
-        <p>Phone: <strong>(502) 289-2973</strong></p>
+    <!--Footer-->
+    <footer id="main-footer" class="grid">
+        <div>OWEN is the G.O.A.T</div>
+        <div>Project By Ross Allen</div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-        </script>
-
-    <script src="js/main.js"></script>
+    <script src="navbar.js"></script>
 </body>
 
 </html>
