@@ -177,6 +177,13 @@ nav {
     
 }
 
+#section-d label, input, textarea {
+    display: block;
+}
+
+.email .subject .message{
+    flex-wrap: wrap;
+}
 /* Footer */
 
 #main-footer {
@@ -297,7 +304,7 @@ nav {
     }
 }
 
-/*screen width 1200px and larger */
+/*screen width 1200px and larger 
 @media(min-width: 1200px) {
     .grid {
         display: grid;
@@ -329,11 +336,12 @@ nav {
     #section-b li {
         width: 31%;
     }
-}
+}*/
+
 
 /* testing for navbar */
-/*screen width 768px and smaller */
-@media(max-width: 768px) {
+/*screen width 600px and smaller */
+@media(max-width: 600px) {
     body {
         overflow-x: hidden;
     }
@@ -347,7 +355,7 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 40%;
+        width: 20%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }

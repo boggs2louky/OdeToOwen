@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>An Ode to Owen</title>
-    
+
 </head>
 
 <body>
-    <!--Header Need to add a navbar-->
+    <!--Navigation bar html-->
     <nav>
         <div class="logo">
             <h4>Owen "Beagle" Wilson</h4>
         </div>
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <!--<li><a href="#">About</a></li>-->
             <li><a href="#">Contact</a></li>
         </ul>
         <div class="burger">
@@ -26,13 +26,14 @@
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
-    </nav>  
+    </nav>
 
     <header id="showcase" class="grid">
         <div class="bg-image"></div>
         <div class="content-wrap">
             <h1>Welcome to An Ode to Owen</h1>
-            <p>Owen was a 15 year old Beagle who passed away in Sept. 3, 2021 at 8:30pm. He was loved by all and will be greatly
+            <p>Owen was a 15 year old Beagle who passed away in Sept. 3, 2021 at 8:30pm. He was loved by all and will be
+                greatly
                 missed.</p>
             <a href="#section-b" class="btn">Read More</a>
         </div>
@@ -44,8 +45,8 @@
             <div class="content-wrap">
                 <h2 class="content-title">Owen's first day at his new home!</h2>
                 <div class="content-text">
-                    <p>Owen was found by a elementary school teacher who was unable to keep him. Owen was given to
-                        another teacher who provided a forever home and loved him until his death in Sept. 2021</p>
+                    <p>Owen was an abandoned dog found by a teacher in Audubon Park. He was given to Carrie where he
+                        live until his death on Sept. 3, 2021</p>
                 </div>
             </div>
         </section>
@@ -107,11 +108,33 @@
                 <p>Please feel free to contact us at the e-mail below to discuss any aspect of Owen or his habits and
                     mannerisms. We would love the chance to share memories of Owen or field any questions you may have
                     about him or his life.</p>
-                <p>Owentheawesome@yahoo.com</p>
+                <form action="https://formspree.io/f/boggs2louky@yahoo.com" method="post"></form>
+                    <label>
+                        E-mail
+                        <input type="email" name="email" class="email">
+                    </label>
+                    <label>
+                        Subject
+                        <input type="text" name="subject" class="subject">
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" class="message"></textarea>
+                    </label>
+                    <div class="status">
+
+                    </div>
+                    <button type="submit" class="submit">
+                        Send
+                    </button>
+                </form>
+
+                <p>OwenGOAT@yahoo.com</p>
             </div>
             <div class="box">
                 <h2 class="content-title">More About Owen</h2>
-                <p>Additional pages may be added to the site with more photos of Owen. Please feel free to visit the site when you can and updated materials will be added at later dates.</p>
+                <p>Additional pages may be added to the site with more photos of Owen. Please feel free to visit the
+                    site when you can and updated materials will be added at later dates.</p>
             </div>
 
         </section>
@@ -126,6 +149,8 @@
     </footer>
 
     <script src="navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="form.js"></script>
 </body>
 
 </html>
