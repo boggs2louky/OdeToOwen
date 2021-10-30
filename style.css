@@ -234,7 +234,7 @@ nav {
     }
 }
 
-/*screen width 768px and larger 
+/*screen width 768px and larger*/
 @media(min-width: 768px) {
     .grid {
         display: grid;
@@ -266,7 +266,7 @@ nav {
     #section-b li {
         width: 31%;
     }
-}  */
+}  
 
 /*screen width 962px and larger 
 @media(min-width: 962px) {
