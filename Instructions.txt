@@ -1,1 +1,5 @@
 Ode To Owen is a mobile first website dedicated to a special friend to all who met him. He is greatly missed!
+
+
+There are no special instructions for this project. 
+It can be run as is on any device within a localhost environment.
